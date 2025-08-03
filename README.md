@@ -4,24 +4,20 @@
 [![License](https://img.shields.io/github/license/sebhaugeto/docs?style=flat-square)](LICENSE)
 [![Website](https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=green&up_message=online&url=https%3A//www.dealflow.live)](https://www.dealflow.live)
 
-> **Next-generation invoicing documentation for global companies**
-
 Welcome to the official documentation for Dealflow - the next-gen invoicing platform that solves international payment headaches with local bank accounts.
 
-## 🚀 About Dealflow
+## 🚀 Intro
 
-Dealflow is a next-gen invoicing tool that finally solves the headache of international bank transfers via IBAN/SWIFT by providing each user with **local bank accounts** in their customer's country. This innovative approach to invoicing makes international payments as simple as instant and free local transfers. 
+Dealflow is a next-gen invoicing tool that finally solves the headache of international bank transfersvia IBAN/SWIFT. It does that by giving each access to **local bank accounts** in their customer's country. This innovative approach makes international payments as simple, instant and free as normal local transfers. 
 
-## 📖 Documentation Features
+## 📖 Documentation menu
 
 This documentation covers:
 
-- **API Reference** - Complete REST API documentation with interactive examples
 - **Quick Start Guide** - Get up and running in minutes
 - **Authentication** - Secure API authentication methods
 - **Rate Limiting** - Usage limits and best practices
-- **Invoicing API** - Create, manage, and track invoices
-- **Multi-language Support** - Documentation for global teams
+- **API Reference** - Complete REST API documentation with interactive examples
 
 ## 🛠 Built With
 
@@ -31,7 +27,7 @@ This documentation covers:
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Requirements
 
 - Node.js 18+ 
 - npm or yarn
@@ -78,34 +74,38 @@ docs/
 ├── api-reference/           # API documentation
 │   ├── create.mdx
 │   ├── delete.mdx
-│   └── get.mdx
+│   ├── get.mdx
+│   └── ...
 ├── logo/                    # Brand assets
 ├── images/                  # Documentation images
 ├── docs.json               # Mintlify configuration
 └── README.md              # This file
 ```
 
-## ✨ Key for
+## ✨ Main benefits
 
-- **🎨 Beautiful UI** - Clean, modern design that's easy to navigate
-- **📱 Mobile Responsive** - Perfect experience on all devices  
-- **🔍 Powerful Search** - Find anything instantly
-- **🌙 Dark Mode** - Easy on the eyes for extended reading
-- **⚡ Fast Loading** - Optimized for speed and performance
-- **🔗 Deep Linking** - Share specific sections easily
-- **📋 Code Copying** - One-click code snippet copying
+- **Native AI searchI** - Give customer access to a documentation AI that's easy to use
+- **Beautiful documentation UI** - Clean, modern design that's easy to navigate
+- **Mobile Responsive** - Perfect experience on all devices  
+- **Powerful Search** - Find anything instantly
+- **Dark Mode** - Easy on the eyes for extended reading
+- **Fast Loading** - Optimized for speed and performance
+- **Deep Linking** - Share specific sections easily
+- **Code Copying** - One-click code snippet copying
 
 ## 🤝 Contributing
 
-We welcome contributions to improve our documentation! Here's how you can help:
+Here's how you can help:
 
 ### Reporting Issues
 
-Found a bug or have a suggestion? Please [open an issue](https://github.com/sebhaugeto/docs/issues) with:
+Found a bug or have a suggestion? Create a ticket: 
 
 - Clear description of the problem
 - Steps to reproduce (if applicable)
 - Expected vs actual behavior
+- Suggestion for solution
+- Definition of success
 - Screenshots (if helpful)
 
 ### Making Changes
@@ -140,20 +140,16 @@ Found a bug or have a suggestion? Please [open an issue](https://github.com/sebh
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This documentation is licensed under the Creative Commons ZERO License
 
 ## 🔗 Links
 
-- **🌐 Website**: [dealflow.live](https://www.dealflow.live)
-- **📧 Support**: [hello@dealflow.live](mailto:hello@dealflow.live)
-- **💼 LinkedIn**: [Dealflow Company](https://www.linkedin.com/company/dealflowapp)
-- **📝 Blog**: [Dealflow Blog](https://www.dealflow.live/blog)
+- **Website**: [dealflow.live](https://www.dealflow.live)
+- **Support**: [hello@dealflow.live](mailto:hello@dealflow.live)
+- **LinkedIn**: [Dealflow Company](https://www.linkedin.com/company/dealflowapp)
+- **Blog**: [Dealflow Blog](https://www.dealflow.live/blog)
 
 ## 🏢 About the Company
-
-Dealflow is building the future of global invoicing. Our platform enables businesses to receive payments through local bank accounts in their customers' countries, eliminating the complexity and costs of international wire transfers.
-
----
 
 **Made with ❤️ by the core team**
 
