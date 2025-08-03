@@ -1,44 +1,160 @@
-# Mintlify Starter Kit
+# Dealflow Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+[![Mintlify](https://img.shields.io/badge/Powered_by-Mintlify-mint?style=flat-square)](https://mintlify.com)
+[![License](https://img.shields.io/github/license/sebhaugeto/docs?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/website?down_color=red&down_message=offline&style=flat-square&up_color=green&up_message=online&url=https%3A//www.dealflow.live)](https://www.dealflow.live)
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+> **Next-generation invoicing documentation for global companies**
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+Welcome to the official documentation for Dealflow - the next-gen invoicing platform that solves international payment headaches with local bank accounts.
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## 🚀 About Dealflow
 
-## Development
+Dealflow is a next-gen invoicing tool that finally solves the headache of international bank transfers via IBAN/SWIFT by providing each user with **local bank accounts** in their customer's country. This innovative approach to invoicing makes international payments as simple as instant and free local transfers. 
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## 📖 Documentation Features
+
+This documentation covers:
+
+- **API Reference** - Complete REST API documentation with interactive examples
+- **Quick Start Guide** - Get up and running in minutes
+- **Authentication** - Secure API authentication methods
+- **Rate Limiting** - Usage limits and best practices
+- **Invoicing API** - Create, manage, and track invoices
+- **Multi-language Support** - Documentation for global teams
+
+## 🛠 Built With
+
+- **[Mintlify](https://mintlify.com)** - Modern documentation platform
+- **MDX** - Enhanced Markdown with React components
+- **GitHub Pages** - Hosting and deploymentn
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+- Git
+
+### Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sebhaugeto/docs.git
+   cd docs
+   ```
+
+2. **Install Mintlify CLI**
+   ```bash
+   npm install -g @mintlify/cli
+   ```
+
+3. **Start local development server**
+   ```bash
+   mintlify dev
+   ```
+
+4. **Open your browser**
+   ```
+   http://localhost:3000
+   ```
+
+The documentation will automatically reload when you make changes to any files.
+
+## 📁 Project Structure
 
 ```
-npm i -g mint
+docs/
+├── getting-started/          # Getting started guides
+│   ├── introduction.mdx
+│   ├── quickstart.mdx
+│   ├── authentication.mdx
+│   └── rate-limit.mdx
+├── example-pages/           # Example documentation pages
+│   ├── settings.mdx
+│   ├── navigation.mdx
+│   └── ...
+├── api-reference/           # API documentation
+│   ├── create.mdx
+│   ├── delete.mdx
+│   └── get.mdx
+├── logo/                    # Brand assets
+├── images/                  # Documentation images
+├── docs.json               # Mintlify configuration
+└── README.md              # This file
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## ✨ Key for
 
-```
-mint dev
-```
+- **🎨 Beautiful UI** - Clean, modern design that's easy to navigate
+- **📱 Mobile Responsive** - Perfect experience on all devices  
+- **🔍 Powerful Search** - Find anything instantly
+- **🌙 Dark Mode** - Easy on the eyes for extended reading
+- **⚡ Fast Loading** - Optimized for speed and performance
+- **🔗 Deep Linking** - Share specific sections easily
+- **📋 Code Copying** - One-click code snippet copying
 
-View your local preview at `http://localhost:3000`.
+## 🤝 Contributing
 
-## Publishing changes
+We welcome contributions to improve our documentation! Here's how you can help:
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+### Reporting Issues
 
-## Need help?
+Found a bug or have a suggestion? Please [open an issue](https://github.com/sebhaugeto/docs/issues) with:
 
-### Troubleshooting
+- Clear description of the problem
+- Steps to reproduce (if applicable)
+- Expected vs actual behavior
+- Screenshots (if helpful)
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+### Making Changes
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/improve-authentication-docs
+   ```
+3. **Make your changes**
+4. **Test locally**
+   ```bash
+   mintlify dev
+   ```
+5. **Commit your changes**
+   ```bash
+   git commit -m "docs: improve authentication examples"
+   ```
+6. **Push to your fork**
+   ```bash
+   git push origin feature/improve-authentication-docs
+   ```
+7. **Open a Pull Request**
+
+### Writing Guidelines
+
+- Use clear, concise language
+- Include code examples where applicable
+- Test all code snippets
+- Follow the existing style and structure
+- Add screenshots for UI-related changes
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Links
+
+- **🌐 Website**: [dealflow.live](https://www.dealflow.live)
+- **📧 Support**: [hello@dealflow.live](mailto:hello@dealflow.live)
+- **💼 LinkedIn**: [Dealflow Company](https://www.linkedin.com/company/dealflowapp)
+- **📝 Blog**: [Dealflow Blog](https://www.dealflow.live/blog)
+
+## 🏢 About the Company
+
+Dealflow is building the future of global invoicing. Our platform enables businesses to receive payments through local bank accounts in their customers' countries, eliminating the complexity and costs of international wire transfers.
+
+---
+
+**Made with ❤️ by the core team**
+
+*For technical support or questions about this documentation, please reach out to [hello@dealflow.live](mailto:hello@dealflow.live)* 

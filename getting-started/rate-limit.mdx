@@ -1,0 +1,20 @@
+---
+title: 'Rate limits'
+description: 'Dealflow has a few API limits to ensure safe usage for everyone. Here is what you should know.'
+---
+
+## The limits
+
+1. Not more than 100 requests in 10 seconds 
+2. Not more than 600 requests in 60 seconds 
+
+That's it. Short and clear.
+
+## Breaking the limit
+
+If you exceed the limit, the API request will fail with the 429 status code.
+
+## How to stay within the limit
+1. Run your automations multiple times a day, instead of running your automations once per day. This will reduce the number of requests per minute. 
+2. Split your API calls into batches and apply a wait time between batches. That way, you will reduce the number of requests per minute. 
+3. Use AI to restructure your code to fit into our rate limits. Just send the AI this page for context, then request the changes. 

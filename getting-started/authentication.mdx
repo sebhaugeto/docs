@@ -1,0 +1,27 @@
+---
+title: "Authentication"
+description: "You must have a verifed Dealflow account to use our API."
+---
+
+## Introduction
+The Dealflow API allows you to build your own financial AI agent with invoicing capability and more. Here's how to technially get started.
+
+1. Go to the API plugin
+2. Click the "API Keys" button. You will be redirected to the API section in the copmany setttings page. 
+3. Click the "Create API Key" button
+4. Enter the API key name (used for display purposes only)
+5. Select the scopes you would like this API key to have
+6. Press the "Create" button
+7. Copy the key and store it in a secure place
+8. For security reasons, the API key will be displayed only once, and there is no way to recover it if you loose it.
+
+
+All API endpoints are authenticated using "auth method incoming".
+
+```json
+"security": [
+  {
+    "bearerAuth": [incoming]
+  }
+]
+```

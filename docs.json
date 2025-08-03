@@ -3,35 +3,31 @@
   "theme": "maple",
   "name": "Dealflow Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#D377D3", 
+    "light": "#DF9FDF",    
+    "dark": "#A03CA7"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/Dealflow favicon.svg",
   "navigation": {
   "groups": [
     {
       "group": "Getting started",
-      "pages": [ "index", "quickstart", "development" ]
+      "pages": [ "getting-started/introduction", "getting-started/quickstart", "getting-started/authentication","getting-started/rate-limit" ]
     },
     {
-      "group": "Customization",
-      "pages": [ "essentials/settings", "essentials/navigation" ]
+      "group": "Example pages",
+      "pages": [ "example-pages/settings", "example-pages/navigation","example-pages/markdown", "example-pages/code", "example-pages/images", "example-pages/reusable-snippets" ]
     },
     {
-      "group": "Writing content",
-      "pages": [ "essentials/markdown", "essentials/code", "essentials/images", "essentials/reusable-snippets" ]
-    },
-    {
-      "group": "API Endpoints",
-      "pages": [ "api-reference/auth", "api-reference/invoices", "api-reference/payments" ]
+      "group": "API: invoicing",
+      "pages": ["api-reference/create", "api-reference/delete", "api-reference/get" ]
     }
   ],
   "global": {
     "anchors": [
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Release notes",
+          "href": "https://www.dealflow.live/blog",
           "icon": "newspaper"
         }
       ]
@@ -45,14 +41,9 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hello@dealflow.live"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
@@ -68,9 +59,10 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/dealflowapp"
     }
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
